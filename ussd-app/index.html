@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>COVID19 USSD HELPDESK</title>
+</head>
+<body>
+    <div class="container-fluid" id="root">
+        <header>
+            <h1 class="text-center">{{title}}</h1>
+            <h4 class="text-center">Realtime USSD based COVID19 helpdesk</h4>
+        </header>
+        <main>
+            <div class="row">
+                <div v-for="order in orders" v-if="order.open" class="col-md-4 order-card">
+                    <h3 title="Customer Name">{{order.name}}</h3>
+                    <span class="closeicon" @click="close(order)" title="Close Order">X</span>
+                    <p title="Order Description">{{order.description}}</p>
+                    <p title="Customer Address">{{order.address}}</p>
+                    <p title="Customer Telephone">{{order.telephone}}</p>
+                </div>
+            </div>
+        </main>
+    </div>
+<!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js"></script>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script> 
+    <script src="index.js"></script>
+</body>
+</html>
