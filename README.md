@@ -35,7 +35,7 @@ CoForce is a one-stop website where needy people (including COVID patients) can 
 1. `Git Bash` Pushing code to the Heroku master branch for deployment
 2. `Sublime text` text editor
 
-![alt text]()
+![alt text](https://github.com/nishant8509/CoForce-COVID19-Resource-Dashboard/blob/master/sw.png)
 
 
 
