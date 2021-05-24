@@ -28,7 +28,7 @@ CoForce is a one-stop website where needy people (including COVID patients) can 
 ### API & Sandbox For USSD Help-Desk Development
 
 1. `Africa's Talking` android app from Google Playstore or use the web interface at https://simulator.africastalking.com:1517/
-2.  Africa's Talking API 
+2.  Africa's Talking API -- https://developers.africastalking.com/docs/getting_started%2Fintroduction
 
 ### Version Control & Text Editor 
 
