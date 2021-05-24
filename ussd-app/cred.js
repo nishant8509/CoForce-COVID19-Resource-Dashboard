@@ -6,8 +6,8 @@ module.exports = {
     },
     pusher:{
        appId: '1022631',
-       key: "a03cc380cf04e1bce05e",
-       secret: "703664f00e6f53445a74",
+       key: "your key",
+       secret: "you secret",
        cluster: "ap2",
        encrypted: true
     }
